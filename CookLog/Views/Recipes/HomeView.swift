@@ -20,7 +20,7 @@ struct HomeView: View {
 
     // default filters
     @State private var recipeSearch = ""
-    @State private var selectedButtons: [String] = []
+    @State private var selectedButtons: [String] = ["All"]
     
     // sheets
     @State private var showAddRecipe = false

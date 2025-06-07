@@ -20,7 +20,7 @@ struct SelectRecipeView: View {
     @Binding var showSelectRecipe: Bool
 
     @State private var recipeSearch = ""
-    @State private var selectedMealTypes: [String] = []
+    @State private var selectedMealTypes: [String] = ["All"]
     @State private var selectedRecipe: Recipe? = nil
 
     private var filteredRecipes: [Recipe] {
