@@ -2,29 +2,23 @@
 //  AddRecipeButton.swift
 //  CookLog
 //
-//  Created by Rachael LaMassa on 4/28/25.
-//
+//  custom add recipe button that executes whatever functionality is passed upon call
 
 import SwiftUI
 
 struct AddRecipeButton: View {
+    let action: () -> Void
+
     var body: some View {
-        Button {
-            print("Add Recipe")
-        } label: {
+        Button(action: action) {
             Text("+ Add Recipe")
-                .fontWeight(.bold)
+                .fontWeight(.semibold)
                 .foregroundStyle(Color("unpressed_button"))
-                .padding(.horizontal, 25)
-                .padding(.vertical, 20)
+                .padding(.horizontal, 20)
+                .padding(.vertical, 15)
                 .background(Color("button"))
                 .clipShape(Capsule())
         }
         .buttonStyle(PlainButtonStyle())
     }
-}
-
-
-#Preview {
-    AddRecipeButton()
 }

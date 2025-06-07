@@ -2,8 +2,7 @@
 //  CustomTabButton.swift
 //  CookLog
 //
-//  Created by Rachael LaMassa on 4/27/25.
-//
+//  tab button color is emphasized when active
 
 import SwiftUI
 
@@ -26,8 +25,9 @@ struct CustomTabButton: View {
                         .resizable()
                         .scaledToFit()
                         .foregroundStyle(Color("selected_tab"))
+                        .frame(width: 50, height: 25)
                     Text(buttonText)
-                        .font(.system(size: 14))
+                        .font(.system(size: 12))
                         .fontWeight(.semibold)
                         .foregroundStyle(Color("selected_tab"))
                 } else {
@@ -35,8 +35,9 @@ struct CustomTabButton: View {
                         .resizable()
                         .scaledToFit()
                         .foregroundStyle(Color("unselected_tab"))
+                        .frame(width: 50, height: 25)
                     Text(buttonText)
-                        .font(.system(size: 14))
+                        .font(.system(size: 12))
                         .foregroundStyle(Color("unselected_tab"))
                 }
                 
@@ -47,8 +48,4 @@ struct CustomTabButton: View {
         .padding(.horizontal)
     }
     
-}
-
-#Preview {
-    CustomTabButton(selectedTab: .constant(.home), buttonImage: "house.lodge.fill", buttonText: "This Week", tab: .home)
 }
