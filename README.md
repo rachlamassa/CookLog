@@ -61,5 +61,4 @@
 
 ## Created By
 **Rachael LaMassa**  
-University of Connecticut – Computer Science (Mobile Computing Concentration)  
-Capstone Portfolio Project – Summer 2025
+Portfolio Project – Summer 2025
