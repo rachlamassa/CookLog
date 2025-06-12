@@ -57,6 +57,20 @@
 - Used `.sheet(item:)` for controlled modals when tapping a recipe or adding one to a day.
 - `@Observable` and `@State` used to keep ViewModels reactive and connected to the UI.
 
+## Screenshots
+
+| Home View | Add Recipe |
+|-----------|------------|
+| ![Home](CookLog/Screenshots/home_view.jpeg) | ![Add Recipe](CookLog/Screenshots/add_recipe.jpeg) |
+
+| Recipe Detail | Weekly View |
+|---------------|-------------|
+| ![Recipe](CookLog/Screenshots/recipe_view.jpeg) | ![Week](CookLog/Screenshots/weekly_view.jpeg) |
+
+| Groceries View |
+|----------------|
+| ![Groceries](CookLog/Screenshots/groceries_view.jpeg) |
+
 ---
 
 ## Created By
