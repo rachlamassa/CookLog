@@ -61,15 +61,15 @@
 
 | Home View | Add Recipe |
 |-----------|------------|
-| ![Home](CookLog/Screenshots/home_view.jpeg) | ![Add Recipe](CookLog/Screenshots/add_recipe.jpeg) |
+| ![Home](CookLog/Screenshots/home_view.png) | ![Add Recipe](CookLog/Screenshots/add_recipe.png) |
 
 | Recipe Detail | Weekly View |
 |---------------|-------------|
-| ![Recipe](CookLog/Screenshots/recipe_view.jpeg) | ![Week](CookLog/Screenshots/weekly_view.jpeg) |
+| ![Recipe](CookLog/Screenshots/recipe_view.png) | ![Week](CookLog/Screenshots/weekly_view.png) |
 
 | Groceries View |
 |----------------|
-| ![Groceries](CookLog/Screenshots/groceries_view.jpeg) |
+| ![Groceries](CookLog/Screenshots/groceries_view.png) |
 
 ---
 
